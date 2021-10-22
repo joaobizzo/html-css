@@ -1,0 +1,12 @@
+body {
+    background-color: aquamarine;font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small; text-align: center;
+}
+h1{
+    color: darkblue;
+}
+h2{
+    color: darkcyan; background-color: mintcream;
+}
+p{
+    color: midnightblue;
+}

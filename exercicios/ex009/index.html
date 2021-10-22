@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <h2>Frank Sinatra</h2>
+    <h3>The way you look</h3>
+    <audio preload="metadata" controls> 
+        <source src="midia/sinatra.mp3" type="audio/mpeg">
+        <a href="midia/sinatra.mp3">
+            <p>Clique aqui para baixar a música</p>
+        </a>
+    </audio>
+</body>
+</html>
